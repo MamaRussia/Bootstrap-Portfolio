@@ -1,0 +1,67 @@
+  /* css that changes main header & navbar */
+
+.navbar-brand {
+font-size: 1.8rem;
+background: #4aaaa5;
+color: #ffffff;
+    
+}
+
+
+
+a {
+	font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 21px;
+	color: #4aaaa5;
+	padding: 12px;
+	padding-left: 35px;
+	border-bottom: 3px solid #ccc;
+	
+  }
+
+
+  /* css that changes content and images */
+	body {
+		background: url(../Images/grey-background.png);
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 100px;
+		margin-bottom: auto
+		}
+	
+
+.container {
+	width: 960px;
+}
+ 
+
+ 
+  .content {
+		margin: auto;
+	width:960px;
+	background-color: #ffffff;
+  }
+
+ img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding: 15px 15px 2px 15px;
+}
+
+
+
+
+
