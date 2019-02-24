@@ -3,10 +3,13 @@
 .navbar-brand {
 font-size: 1.8rem;
 background: #4aaaa5;
-color: #ffffff;
     
 }
 
+.navbar {
+
+background: #ffffff;
+}
 
 
 a {
@@ -19,15 +22,18 @@ a {
 }
 a:hover {
     background-color: #4aaaa5;
-	color: #ffffff;
+
 }
 
+
+
+
 h1 {
-	font-size: 21px;
+	font-size: 24px;
 	color: #4aaaa5;
 	padding: 12px;
 	padding-left: 35px;
-	border-bottom: 3px solid #ccc;
+	border-bottom: 5px solid #ccc;
 	
   }
 
@@ -37,7 +43,7 @@ h1 {
 		background: url(../Images/grey-background.png);
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: 100px;
+		margin-top: 80px;
 		margin-bottom: auto
 		}
 	
@@ -61,7 +67,52 @@ h1 {
 	padding: 15px 15px 2px 15px;
 }
 
+/* css that changes footer */
+
+footer {
+	border-top: 15px solid #4aaaa5;
+	padding-top: 10px;
+}
 
 
+/* css for fade in overlay needs to resize the images or rows?
 
+.container1 {
+	position: relative;
+	width: 50%;
+}
 
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: lightskyblue;
+}
+
+.container1:hover .overlay {
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%. -50%);
+}
+
+*/
